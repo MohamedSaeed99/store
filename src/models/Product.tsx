@@ -4,10 +4,16 @@ export interface IPrice {
     currency: string
 }
 
+export interface IQuantity {
+    size: string,
+    count: number
+}
+
 export interface IProduct {
     id: string,
     name: string,
     price: IPrice,
+    quantity: IQuantity[],
     description: string,
     image: string
 }

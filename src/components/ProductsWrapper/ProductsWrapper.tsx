@@ -1,8 +1,6 @@
 import Product from "../Product/Product";
 import { useProducts } from "../../api/Products/useProducts";
 import { IProduct } from "../../models/Product";
-import ProductModal from "../ProductModal/ProductModal";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ProductsWrapper = () => {
